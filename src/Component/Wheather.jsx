@@ -15,7 +15,7 @@ export default function Wheather() {
             alert("Enter City Name");
         }
         else{
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=9981f256b83dc3a6f9e0c74264037ce9`;
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=`;
             const reccivedata = await fetch(url);
             const datajson = await reccivedata.json();
             // console.log(data.message);
