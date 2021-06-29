@@ -1,0 +1,29 @@
+.wholebox {
+   border-radius: 11px;
+   z-index: 0;
+   height: 90vh;
+}
+
+.image {
+    background-image: url('../img/bg-img.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    height: 90vh;
+}
+
+.content {
+    background-color: #FEB278;
+}
+.content-data {
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
