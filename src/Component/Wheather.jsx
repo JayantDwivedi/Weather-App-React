@@ -6,6 +6,8 @@ import './style.css';
 
 export default function Wheather() {
 
+    const API_KEY = process.env.REACT_APP_API_KEY;
+
     const [data,setData] = useState();
     const [city, setCity] = useState("");
 
@@ -15,7 +17,8 @@ export default function Wheather() {
             alert("Enter City Name");
         }
         else{
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=`;
+            console.log(API_KEY);
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`;
             const reccivedata = await fetch(url);
             const datajson = await reccivedata.json();
             // console.log(data.message);
