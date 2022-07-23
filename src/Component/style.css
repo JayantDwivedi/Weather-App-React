@@ -1,29 +1,31 @@
 .wholebox {
-   border-radius: 11px;
-   z-index: 0;
-   height: 90vh;
+  border-radius: 11px;
+  z-index: 0;
+  height: 90vh;
 }
 
-.image {
-    background-image: url('../img/bg-img.jpg');
+@media screen and (min-width: 800px) {
+  .image {
+    background-image: url("../img/bg-img.jpg");
     background-attachment: fixed;
     background-position: center;
     height: 90vh;
+  }
 }
 
 .content {
-    background-color: #FEB278;
+  background-color: #feb278;
 }
 .content-data {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-li{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 35px;
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 35px;
 }
