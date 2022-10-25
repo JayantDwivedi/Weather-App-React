@@ -3,6 +3,7 @@
 import Wheather from "./Component/Wheather";
 import ErrorBoundry from "./ErrorBoundry";
 
+//main function
 function App() {
   return (
     <ErrorBoundry>
